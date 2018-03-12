@@ -1,0 +1,70 @@
+page-logo {
+    .cover-img {
+        position: relative;
+    }
+    .card-title {
+        position: absolute;
+        top: 40%;
+        font-size: 1em;
+        width: 100%;
+        font-weight: bold;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .img-placeholder:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    
+    .img-placeholder {
+        position: relative;
+    }
+    
+    .img-placeholder:after {
+        content:  '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    .ph-1:after {
+        background: linear-gradient(rgba(35, 31, 32, 0.6), rgba(125, 28, 36, 0.9)); 
+    }
+    .ph-2:after {
+        background: linear-gradient(rgba(255, 193, 56, 0.1), rgba(128, 44, 10, 0.9)); 
+    }
+    .ph-3:after {
+        background: linear-gradient(rgba(25, 9, 89, 0.4), rgba(89, 9, 33,0.9)); 
+    }
+    .ph-4:after {
+        background: linear-gradient(rgba(35, 31, 32, 0.4), rgba(127, 28, 36, 0.9)); 
+    }
+
+    .grid-action {
+        background-color: #ebebeb;
+        border-radius: 5px;
+        padding: 15px 5px;
+        cursor: pointer;
+        text-align: center;
+    }
+    .grid-action .action-title {
+        display: block;
+        font-size: 10px;
+        font-weight: 700;
+        color: #333;
+        text-transform: uppercase;
+        height: 24px;
+        line-height: 12px;
+    }
+
+    .grid-action .icon {
+        font-size: 36px;
+        color: #333;
+    }
+}

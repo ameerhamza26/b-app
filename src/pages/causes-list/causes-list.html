@@ -1,16 +1,39 @@
 <ion-header>
-    <ion-navbar>
-      <ion-title>
-        Causes list
-      </ion-title>
-    </ion-navbar>
-  </ion-header>
-  
-  <ion-content padding>
-    The world is your oyster.
-    <p>
-      If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-    </p>
-    <button (click)="navigate()">Navigate to Main page</button>
-  </ion-content>
-  
+  <ion-navbar>
+    <ion-title>
+      Causes list
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="card-background-page">
+
+  <ion-card>
+    <div class="img-placeholder ph-1">
+      <img src="../assets/imgs/stop-rape.png" />
+    </div>
+    <div class="card-title">Stop Rape of Minors in Burma</div>
+  </ion-card>
+
+  <ion-card>
+    <div class="img-placeholder ph-2">
+      <img src="../assets/imgs/stop-genocide.png" />
+    </div>
+    <div class="card-title">Stop genocide in Burma</div>
+  </ion-card>
+
+  <ion-card>
+    <div class="img-placeholder ph-3">
+      <img src="../assets/imgs/help-muslims.png" />
+    </div>
+    <div class="card-title">help the muslims in kashmir</div>
+  </ion-card>
+
+  <ion-card>
+      <div class="img-placeholder ph-4">
+        <img src="../assets/imgs/new-cause.png" />
+      </div>
+      <div class="card-title">Name of cause</div>
+  </ion-card>
+  <button (click)="navigate()">Navigate to Main page</button>
+</ion-content>
