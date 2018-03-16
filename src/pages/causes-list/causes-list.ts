@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { HomePage } from "../home/home"
+import { CausePage } from "../cause/cause"
 
 @Component({
   selector: 'page-causes-list',
@@ -13,7 +13,9 @@ export class CausesListPage {
   }
 
   navigate() {
-    this.navCtrl.push(HomePage);
+    this.navCtrl.push(CausePage);
   }
 
 }
+
+
